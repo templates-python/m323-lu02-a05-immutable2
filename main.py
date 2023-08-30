@@ -8,7 +8,7 @@ def increment_numbers(numbers):
     return new_numbers
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     new_numbers = increment_numbers(numbers)
-    print("Original numbers:", numbers)
-    print("Incremented numbers:", new_numbers)
+    print('Original numbers:', numbers)
+    print('Incremented numbers:', new_numbers)
