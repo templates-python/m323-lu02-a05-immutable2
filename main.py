@@ -5,5 +5,6 @@ def increment_numbers(numbers):
     pass
 
 if __name__ == '__main__':
-    # Your code here
-    pass
+    print(numbers)                     #[1, 2, 3, 4, 5]  
+    print(increment_numbers(numbers))  #[2, 3, 4, 5, 6] 
+    print(numbers)                     #[1, 2, 3, 4, 5] 
