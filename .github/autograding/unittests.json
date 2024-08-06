@@ -1,0 +1,32 @@
+[
+  {
+    "name": "test_increment_positive_numbers",
+    "function": "test_increment_positive_numbers",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_increment_negative_numbers",
+    "function": "test_increment_negative_numbers",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_increment_mixed_numbers",
+    "function": "test_increment_mixed_numbers",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_increment_empty_list",
+    "function": "test_increment_empty_list",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_original_list_unchanged",
+    "function": "test_original_list_unchanged",
+    "timeout": 10,
+    "points": 1
+  }
+]
