@@ -34,4 +34,6 @@ def test_original_list_unchanged():
     input_list = [1, 2, 3]
     original_list = input_list.copy()
     main.increment_numbers(input_list)
-    assert input_list == original_list, f'Expected the original list to remain unchanged, but got {input_list}.'
+    assert (
+        input_list == original_list
+    ), f'Expected the original list to remain unchanged, but got {input_list}.'
