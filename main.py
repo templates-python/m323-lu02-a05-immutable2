@@ -1,3 +1,8 @@
+"""Listen.
+
+Aufgabenstellung: https://wiki.bzz.ch/modul/m323/learningunits/lu02/aufgaben/immutable2
+"""
+
 numbers = [1, 2, 3, 4, 5]
 
 
