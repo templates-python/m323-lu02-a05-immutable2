@@ -3,7 +3,7 @@
 Aufgabenstellung: https://wiki.bzz.ch/modul/m323/learningunits/lu02/aufgaben/immutable2
 """
 
-numbers = [1, 2, 3, 4, 5]
+SAMPLE_NUMBERS = [1, 2, 3, 4, 5]
 
 
 def increment_numbers(numbers):
@@ -12,6 +12,6 @@ def increment_numbers(numbers):
 
 
 if __name__ == '__main__':
-    print(numbers)  # [1, 2, 3, 4, 5]
-    print(increment_numbers(numbers))  # [2, 3, 4, 5, 6]
-    print(numbers)  # [1, 2, 3, 4, 5]
+    print(SAMPLE_NUMBERS)  # [1, 2, 3, 4, 5]
+    print(increment_numbers(SAMPLE_NUMBERS))  # [2, 3, 4, 5, 6]
+    print(SAMPLE_NUMBERS)  # [1, 2, 3, 4, 5]
