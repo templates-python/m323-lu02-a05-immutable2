@@ -1,4 +1,9 @@
-numbers = [1, 2, 3, 4, 5]
+"""Listen.
+
+Aufgabenstellung: https://wiki.bzz.ch/modul/m323/learningunits/lu02/aufgaben/immutable2
+"""
+
+SAMPLE_NUMBERS = [1, 2, 3, 4, 5]
 
 
 def increment_numbers(numbers):
@@ -9,6 +14,6 @@ def increment_numbers(numbers):
 
 
 if __name__ == '__main__':
-    new_numbers = increment_numbers(numbers)
-    print('Original numbers:', numbers)
-    print('Incremented numbers:', new_numbers)
+    demo_new_numbers = increment_numbers(SAMPLE_NUMBERS)
+    print('Original numbers:', SAMPLE_NUMBERS)
+    print('Incremented numbers:', demo_new_numbers)
